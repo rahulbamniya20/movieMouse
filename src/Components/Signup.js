@@ -166,7 +166,7 @@ const Signup = () => {
       <div class="p-2 w-full">
         <button
           onClick={requestOtp}
-          class="flex mx-auto text-white bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg"
+          class="flex mx-auto text-white bg-purple-600 border-0 py-2 px-8 focus:outline-none hover:bg-purple-700 rounded text-lg"
         >
           {loading ? <TailSpin height={25} color="white" /> : "Request OTP"}
         </button>
