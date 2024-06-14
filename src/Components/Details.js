@@ -16,6 +16,7 @@ const Detail = () => {
     rating: 0,
     rated: 0
   });
+  //loading
   const [loading, setLoading] = useState(false);
   
   useEffect(() => {
